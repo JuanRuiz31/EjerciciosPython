@@ -1,4 +1,4 @@
-entradaSuma = 0;
+Sum = 0;
 
 while True:
     entrada = input("Intruduce una entrada: ")
@@ -6,7 +6,8 @@ while True:
         break;
     else:
         entradaNumero = int(entrada)
-        entradaSuma += entradaNumero
+        Sum += entradaNumero
    
 
 print(entradaSuma)
+
